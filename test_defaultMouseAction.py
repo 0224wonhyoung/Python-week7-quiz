@@ -121,8 +121,9 @@ def line_equation2(x1, y1, x2, y2):
     msg += msgx + msgc
     print(msg)
 
-ex = [[0, 0, 0, 0], [2, 3, 5, 3], [2, 4, 2, 6], [0, 0, 1, 1], [2, 4, -7, 10], [0, 5, 24, 72], [0, 1, 6, 3]]
-for i in range (7):
+ex = [[0, 0, 0, 0], [2, 3, 5, 3], [2, 4, 2, 6], [0, 0, 1, 1], [2, 4, -7, 10], [0, 5, 24, 75], [2, -1, -12, 9], [2, -1, 16, -11], [0, 1, 6, 3]]
+for i in range (9):
+    print(ex[i])
     line_equation1(ex[i][0], ex[i][1], ex[i][2], ex[i][3])
     line_equation2(ex[i][0], ex[i][1], ex[i][2], ex[i][3])
     print(" ")
